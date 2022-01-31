@@ -26,17 +26,41 @@ export default function Contact() {
   };
 
   return (
-    <div>
+    <div className="">
       <h1 className="p-5 display-5">Contact</h1>
-      <form ref={form} onSubmit={sendEmail}>
-        <label>Name</label>
-        <input type="text" name="user_name" />
-        <label>Email</label>
-        <input type="email" name="user_email" />
-        <label>Message</label>
-        <textarea name="message" />
-        <input type="submit" value="Send" />
-      </form>
+      <div className="d-flex justify-content-center">
+        <div className="col-10 form-container">
+          <form className="" ref={form} onSubmit={sendEmail}>
+            <input
+              className="form-control form-control-md"
+              type="text"
+              name="user_name"
+              required
+              placeholder="Full Name"
+            />
+            <input
+              className="form-control"
+              type="email"
+              name="user_email"
+              required
+              placeholder="Email"
+            />
+            <textarea
+              className="form-control"
+              name="message"
+              required
+              placeholder="Message"
+            />
+            <button
+              type="submit"
+              className="form-control btn btn-success"
+              value="Send"
+            >
+              Send
+            </button>
+          </form>
+        </div>
+      </div>
     </div>
   );
 }

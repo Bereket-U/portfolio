@@ -48,6 +48,14 @@ body {
 .body-container {
   max-width: 70em;
 }
+.form-container {
+  max-width: 30em;
+}
+form button,
+input,
+textarea {
+  margin-bottom: 10px;
+}
 .project {
   height: 300px;
   width: 351px;
@@ -104,4 +112,9 @@ body {
 }
 .card-list {
   text-align: left;
+}
+
+label {
+  text-align: left;
+  align-items: left;
 }
