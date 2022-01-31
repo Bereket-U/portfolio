@@ -3,7 +3,7 @@ import React from "react";
 export default function Portfolio() {
   return (
     <div>
-      <h2 className="p-4">Projects</h2>
+      <h2 className="p-4 display-5">Projects</h2>
       <div className="body-container d-flex mx-auto justify-content-center">
         <div class="d-md-flex flex-md-equal ">
           <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
