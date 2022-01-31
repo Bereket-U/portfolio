@@ -4,7 +4,7 @@ export default function Header() {
   return (
     <div>
       <nav class="navbar navbar-expand-md navbar-light bg-light border-bottom py-2 mb-4">
-        <div class="container-fluid">
+        <div class="container-fluid body-container">
           <a
             class="navbar-brand d-flex align-items-center col-md-5 mb-2 mb-md-0"
             href="#"
