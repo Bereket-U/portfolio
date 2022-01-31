@@ -90,6 +90,7 @@ export default function Portfolio() {
           </div>
         </div>
       </div>
+      <br />
       <div className="body-container d-flex mx-auto justify-content-center">
         <div class="d-md-flex flex-md-equal ">
           <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
