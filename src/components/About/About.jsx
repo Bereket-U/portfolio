@@ -48,7 +48,7 @@ export default function About() {
         </svg>
 
         <h1 className="p-3 display-5">Full-Stack software developer</h1>
-        <p class="lead">
+        <p className="lead">
           Computer science professional with 3+ years of experience, skilled in
           Full-Stack software development, IT Support, and on a lifelong journey
           of learning. Currently, looking to leverage my knowledge and
