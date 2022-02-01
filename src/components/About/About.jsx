@@ -2,7 +2,7 @@ import React from "react";
 
 export default function About() {
   return (
-    <div class="cover-container d-flex p-5 mx-auto flex-column">
+    <div id="about" class="cover-container d-flex p-5 mx-auto flex-column">
       <div class="px-3">
         <svg
           height="100"

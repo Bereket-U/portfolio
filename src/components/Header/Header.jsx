@@ -25,17 +25,29 @@ export default function Header() {
           <div className="collapse navbar-collapse" id="navbarText">
             <ul className="navbar-nav me-auto ">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">
+                <a
+                  className="nav-link active"
+                  aria-current="page"
+                  href="#about"
+                >
                   About
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">
+                <a
+                  className="nav-link active"
+                  aria-current="page"
+                  href="#projects"
+                >
                   Projects
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">
+                <a
+                  className="nav-link active"
+                  aria-current="page"
+                  href="#contact"
+                >
                   Contact
                 </a>
               </li>

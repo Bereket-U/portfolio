@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Portfolio() {
   return (
-    <div>
+    <div id="projects">
       <h2 className="p-4 display-5">Projects</h2>
       <div className="body-container d-flex mx-auto justify-content-center">
         <div class="d-md-flex flex-md-equal ">

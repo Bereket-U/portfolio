@@ -33,7 +33,7 @@ export default function Contact() {
   };
 
   return (
-    <div>
+    <div id="contact">
       <h1 className="p-5 display-5">Contact Me</h1>
       <div className="d-flex justify-content-center">
         <div className="col-10 form-container">
