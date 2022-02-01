@@ -1,7 +1,13 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
+import Modal from "react-bootstrap/Modal";
+import Button from "react-bootstrap/Modal";
 
 export default function Contact() {
+  const [show, setShow] = useState(false);
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
+
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -17,6 +23,7 @@ export default function Contact() {
       .then(
         (result) => {
           console.log(result.text);
+          handleShow();
         },
         (error) => {
           console.log(error.text);
@@ -61,6 +68,17 @@ export default function Contact() {
           </form>
         </div>
       </div>
+      <Modal show={show} onHide={handleClose}>
+        <Modal.Header closeButton>
+          <Modal.Title>Message Sent!</Modal.Title>
+        </Modal.Header>
+        <Modal.Body>Thank you, I will contact you shortly!</Modal.Body>
+        <Modal.Footer>
+          <button className="btn btn-secondary" onClick={handleClose}>
+            Close
+          </button>
+        </Modal.Footer>
+      </Modal>
     </div>
   );
 }
