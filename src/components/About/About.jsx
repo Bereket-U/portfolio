@@ -49,10 +49,10 @@ export default function About() {
 
         <h1 className="p-3 display-5">Full-Stack software developer</h1>
         <p class="lead">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis
-          eligendi maxime reprehenderit aut rerum, delectus, quas voluptates
-          reiciendis at, libero veritatis corrupti expedita soluta deleniti
-          exercitationem laborum inventore voluptatibus nobis?
+          Computer science professional with 2+ years of experience, skilled in
+          Full-Stack software development, IT Support, and on a lifelong journey
+          of learning. Currently, looking to leverage my knowledge and
+          experience into a role as a Full-stack software developer.
         </p>
         <h3 className="p-3 display-6">Skills</h3>
         <div className="col-12">
