@@ -33,11 +33,11 @@ export default function Contact() {
   };
 
   return (
-    <div className="">
-      <h1 className="p-5 display-5">Contact</h1>
+    <div>
+      <h1 className="p-5 display-5">Contact Me</h1>
       <div className="d-flex justify-content-center">
         <div className="col-10 form-container">
-          <form className="" ref={form} onSubmit={sendEmail}>
+          <form ref={form} onSubmit={sendEmail}>
             <input
               className="form-control form-control-md"
               type="text"
