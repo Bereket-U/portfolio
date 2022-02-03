@@ -301,6 +301,26 @@ export default function About() {
             />
           </svg>
         </div>
+        <div className="d-flex justify-content-evenly py-3">
+          <div>
+            <ul className="skill-list">
+              <li>HTML, CSS, JavaScript</li>
+              <li>React, Bootstrap, Meterialize</li>
+            </ul>
+          </div>
+          <div>
+            <ul className="skill-list">
+              <li>Node.js, Express.js</li>
+              <li>Python, Django, PHP</li>
+            </ul>
+          </div>
+          <div>
+            <ul className="skill-list">
+              <li>SQL, PostgreSQL, MYSQL</li>
+              <li>MongoDB, Moongoose</li>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
   );

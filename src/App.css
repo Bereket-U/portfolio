@@ -113,7 +113,10 @@ textarea {
 .card-list {
   text-align: left;
 }
-
+.skill-list {
+  text-align: left;
+  list-style-type: none;
+}
 label {
   text-align: left;
   align-items: left;
