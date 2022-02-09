@@ -49,32 +49,35 @@ export default function About() {
 
         <h1 className="p-3 display-5">Full-Stack software developer</h1>
         <p className="lead">
-          Computer science professional with 3+ years of experience, skilled in
-          Full-Stack software development, IT Support, and on a lifelong journey
-          of learning. Currently, looking to leverage my knowledge and
+          Computer science professional with 2+ years of experience, skilled in
+          Full-Stack software development, IT Support, and I'm on a lifelong
+          journey of learning. Currently, looking to leverage my knowledge and
           experience into a role as a Full-stack software developer.
         </p>
         <h3 className="p-3 display-6">Skills</h3>
         <div className="col-12">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            aria-label="HTML5"
-            role="img"
-            width="40"
-            height="40"
-            viewBox="0 0 512 512"
-          >
-            <path fill="#e34f26" d="M71 460L30 0h451l-41 460-185 52" />
-            <path fill="#ef652a" d="M256 472l149-41 35-394H256" />
-            <path
-              fill="#ebebeb"
-              d="M256 208h-75l-5-58h80V94H114l15 171h127zm-1 147l-63-17-4-45h-56l7 89 116 32z"
-            />
-            <path
-              fill="#fff"
-              d="M255 208v57h70l-7 73-63 17v59l116-32 16-174zm0-114v56h137l5-56z"
-            />
-          </svg>
+          <div title="Hello from speech bubble!" class="tooltip">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              aria-label="HTML5"
+              role="img"
+              width="40"
+              height="40"
+              viewBox="0 0 512 512"
+            >
+              <path fill="#e34f26" d="M71 460L30 0h451l-41 460-185 52" />
+              <path fill="#ef652a" d="M256 472l149-41 35-394H256" />
+              <path
+                fill="#ebebeb"
+                d="M256 208h-75l-5-58h80V94H114l15 171h127zm-1 147l-63-17-4-45h-56l7 89 116 32z"
+              />
+              <path
+                fill="#fff"
+                d="M255 208v57h70l-7 73-63 17v59l116-32 16-174zm0-114v56h137l5-56z"
+              />
+            </svg>
+          </div>
+
           <svg
             width="40"
             height="40"
@@ -300,26 +303,6 @@ export default function About() {
               style={{ fill: "#ffda44" }}
             />
           </svg>
-        </div>
-        <div className="d-flex justify-content-evenly py-3">
-          <div>
-            <ul className="skill-list">
-              <li>HTML, CSS, JavaScript</li>
-              <li>React, Bootstrap, Meterialize</li>
-            </ul>
-          </div>
-          <div>
-            <ul className="skill-list">
-              <li>Node.js, Express.js</li>
-              <li>Python, Django, PHP</li>
-            </ul>
-          </div>
-          <div>
-            <ul className="skill-list">
-              <li>SQL, PostgreSQL, MYSQL</li>
-              <li>MongoDB, Moongoose</li>
-            </ul>
-          </div>
         </div>
       </div>
     </div>
