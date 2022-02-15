@@ -8,13 +8,56 @@ export default function Portfolio() {
         <div className="d-md-flex flex-md-equal ">
           <div className="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
             <div className="my-3 p-3">
+              <h2 className="display-5">PurrBnB</h2>
+              <p className="lead">Airbnb for cats.</p>
+            </div>
+            <div className="bg-body project flip-card ">
+              <div className="flip-card-inner">
+                <div className="flip-card-front">
+                  <img src="https://i.imgur.com/jnsNoxq.png" alt="Avatar" />
+                </div>
+                <div className="flip-card-back bg-light">
+                  <p>
+                    Purrbnb is a cat vacation rental solution with contemporary
+                    reatures to manage all your fuzzy friends listings.This is a
+                    way to seamlessly make reservations! This is an online
+                    market place that eables users to sign up, both view and add
+                    listings all while enjoying adorable cats!
+                  </p>
+                  <h3>Technologies Used</h3>
+                  <ul className="card-list">
+                    <li>React, JavaScript, Express</li>
+                    <li>HTML, CSS, Bootstrap</li>
+                    <li>MongoDB, Mongoose</li>
+                    <li>Heroku, Mongodb Atlas</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div className="d-flex justify-content-evenly py-3">
+              <a
+                className="btn btn-outline-secondary"
+                href="https://my-purrbnb.herokuapp.com/"
+              >
+                Live-Demo
+              </a>
+              <a
+                className="btn btn-outline-secondary"
+                href="https://github.com/Bereket-U/purrbnb"
+              >
+                Code-GitHub
+              </a>
+            </div>
+          </div>
+          <div className="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+            <div className="my-3 p-3">
               <h2 className="display-5">Hangman</h2>
               <p className="lead">Browser-based Game.</p>
             </div>
             <div className="bg-body project flip-card ">
               <div className="flip-card-inner">
                 <div className="flip-card-front">
-                  <img src="hangman.png" alt="Avatar" />
+                  <img src="https://i.imgur.com/1zEHM3c.png" alt="Avatar" />
                 </div>
                 <div className="flip-card-back bg-light">
                   <p>
@@ -47,6 +90,11 @@ export default function Portfolio() {
               </a>
             </div>
           </div>
+        </div>
+      </div>
+      <br />
+      <div className="body-container d-flex mx-auto justify-content-center">
+        <div className="d-md-flex flex-md-equal ">
           <div className="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
             <div className="my-3 p-3">
               <h2 className="display-5">Lets Review</h2>
@@ -55,7 +103,7 @@ export default function Portfolio() {
             <div className="bg-body project flip-card ">
               <div className="flip-card-inner">
                 <div className="flip-card-front">
-                  <img src="letsreview.png" alt="Avatar" />
+                  <img src="https://i.imgur.com/x9jeTfL.png" alt="Avatar" />
                 </div>
                 <div className="flip-card-back bg-light">
                   <p>
@@ -88,11 +136,6 @@ export default function Portfolio() {
               </a>
             </div>
           </div>
-        </div>
-      </div>
-      <br />
-      <div className="body-container d-flex mx-auto justify-content-center">
-        <div className="d-md-flex flex-md-equal ">
           <div className="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
             <div className="my-3 p-3">
               <h2 className="display-5">Chit-Chat</h2>
@@ -101,7 +144,7 @@ export default function Portfolio() {
             <div className="bg-body project flip-card ">
               <div className="flip-card-inner">
                 <div className="flip-card-front">
-                  <img src="chitchat.png" alt="Avatar" />
+                  <img src="https://i.imgur.com/G6JZ6Pl.png" alt="Avatar" />
                 </div>
                 <div className="flip-card-back bg-light">
                   <p>
@@ -128,49 +171,6 @@ export default function Portfolio() {
               <a
                 className="btn btn-outline-secondary"
                 href="https://github.com/Bereket-U/ChitChat"
-              >
-                Code-GitHub
-              </a>
-            </div>
-          </div>
-          <div className="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-            <div className="my-3 p-3">
-              <h2 className="display-5">PurrBnB</h2>
-              <p className="lead">Airbnb for cats.</p>
-            </div>
-            <div className="bg-body project flip-card ">
-              <div className="flip-card-inner">
-                <div className="flip-card-front">
-                  <img src="purrbnb.png" alt="Avatar" />
-                </div>
-                <div className="flip-card-back bg-light">
-                  <p>
-                    Purrbnb is a cat vacation rental solution with contemporary
-                    reatures to manage all your fuzzy friends listings.This is a
-                    way to seamlessly make reservations! This is an online
-                    market place that eables users to sign up, both view and add
-                    listings all while enjoying adorable cats!
-                  </p>
-                  <h3>Technologies Used</h3>
-                  <ul className="card-list">
-                    <li>React, JavaScript, Express</li>
-                    <li>HTML, CSS, Bootstrap</li>
-                    <li>MongoDB, Mongoose</li>
-                    <li>Heroku, Mongodb Atlas</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div className="d-flex justify-content-evenly py-3">
-              <a
-                className="btn btn-outline-secondary"
-                href="https://purrbnb.herokuapp.com/"
-              >
-                Live-Demo
-              </a>
-              <a
-                className="btn btn-outline-secondary"
-                href="https://github.com/Bereket-U/purrbnb"
               >
                 Code-GitHub
               </a>
