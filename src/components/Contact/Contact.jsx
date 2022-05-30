@@ -34,51 +34,56 @@ export default function Contact() {
 
   return (
     <div id="contact">
-      <h1 className="p-5 display-5">Get In Touch</h1>
-      <div className="d-flex justify-content-center">
-        <div className="col-10 form-container">
-          <form ref={form} onSubmit={sendEmail}>
-            <input
-              className="form-control form-control-md"
-              type="text"
-              name="user_name"
-              required
-              placeholder="Full Name"
-            />
-            <input
-              className="form-control"
-              type="email"
-              name="user_email"
-              required
-              placeholder="Email"
-            />
-            <textarea
-              className="form-control"
-              name="message"
-              required
-              placeholder="Message"
-            />
-            <button
-              type="submit"
-              className="form-control btn btn-success"
-              value="Send"
-            >
-              Send
-            </button>
-          </form>
+      <section class="page-section" id="skills">
+        <div class="container px-4 px-lg-5">
+          <h2 class="text-center mt-0">Get In Touch</h2>
+          <hr class="divider" />
+          <div className="d-flex justify-content-center">
+            <div className="col-10 form-container">
+              <form ref={form} onSubmit={sendEmail}>
+                <input
+                  className="form-control form-control-md"
+                  type="text"
+                  name="user_name"
+                  required
+                  placeholder="Full Name"
+                />
+                <input
+                  className="form-control"
+                  type="email"
+                  name="user_email"
+                  required
+                  placeholder="Email"
+                />
+                <textarea
+                  className="form-control"
+                  name="message"
+                  required
+                  placeholder="Message"
+                />
+                <button
+                  type="submit"
+                  className="form-control btn btn-success"
+                  value="Send"
+                >
+                  Send
+                </button>
+              </form>
+            </div>
+          </div>
+          <Modal show={show} onHide={handleClose}>
+            <Modal.Header closeButton>
+              <Modal.Title>Message Sent!</Modal.Title>
+            </Modal.Header>
+            <Modal.Body>Thank you, I will contact you shortly!</Modal.Body>
+            <Modal.Footer>
+              <button className="btn btn-secondary" onClick={handleClose}>
+                Close
+              </button>
+            </Modal.Footer>
+          </Modal>
         </div>
-      </div>
-      <Modal show={show} onHide={handleClose}>
-        <Modal.Header closeButton>
-          <Modal.Title>Message Sent!</Modal.Title>
-        </Modal.Header>
-        <Modal.Body>Thank you, I will contact you shortly!</Modal.Body>
-        <Modal.Footer>
-          <button className="btn btn-secondary" onClick={handleClose}>
-            Close
-          </button>
-        </Modal.Footer>
-      </Modal>
+      </section>
     </div>
   );
 }
