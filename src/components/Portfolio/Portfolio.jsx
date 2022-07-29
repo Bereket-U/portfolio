@@ -1,4 +1,10 @@
 import React from "react";
+import github from "./images/github.png";
+import hangman from "./images/hangman.png";
+import purbnb from "./images/purbnb.png";
+import lets from "./images/lets.png";
+import recipe from "./images/recipe.png";
+import chitchat from "./images/chitchat.png";
 
 export default function Portfolio() {
   return (
@@ -43,11 +49,7 @@ export default function Portfolio() {
                       </a>
                     </div>
                   </div>
-                  <img
-                    class="img-fluid"
-                    src="https://i.imgur.com/eLl8Pgh.jpg"
-                    alt="..."
-                  />
+                  <img class="img-fluid" src={github} alt="..." />
                 </a>
                 <div class="portfolio-caption">
                   <div class="portfolio-caption-heading">
@@ -93,11 +95,7 @@ export default function Portfolio() {
                       </a>
                     </div>
                   </div>
-                  <img
-                    class="img-fluid"
-                    src="https://i.imgur.com/mItU5Qg.jpg"
-                    alt="..."
-                  />
+                  <img class="img-fluid" src={hangman} alt="..." />
                 </a>
                 <div class="portfolio-caption">
                   <div class="portfolio-caption-heading">Hangman Game</div>
@@ -142,11 +140,7 @@ export default function Portfolio() {
                       </a>
                     </div>
                   </div>
-                  <img
-                    class="img-fluid"
-                    src="https://i.imgur.com/ByNsEUg.jpg"
-                    alt="..."
-                  />
+                  <img class="img-fluid" src={purbnb} alt="..." />
                 </a>
                 <div class="portfolio-caption">
                   <div class="portfolio-caption-heading">PurrBnB</div>
@@ -190,11 +184,7 @@ export default function Portfolio() {
                       </a>
                     </div>
                   </div>
-                  <img
-                    class="img-fluid"
-                    src="https://i.imgur.com/Ng27VVi.jpg"
-                    alt="..."
-                  />
+                  <img class="img-fluid" src={lets} alt="..." />
                 </a>
                 <div class="portfolio-caption">
                   <div class="portfolio-caption-heading">Lets Review</div>
@@ -235,11 +225,7 @@ export default function Portfolio() {
                       </a>
                     </div>
                   </div>
-                  <img
-                    class="img-fluid"
-                    src="https://i.imgur.com/2JHJ1AA.jpg"
-                    alt="..."
-                  />
+                  <img class="img-fluid" src={recipe} alt="..." />
                 </a>
                 <div class="portfolio-caption">
                   <div class="portfolio-caption-heading">Recipe Finder</div>
@@ -283,11 +269,7 @@ export default function Portfolio() {
                       </a>
                     </div>
                   </div>
-                  <img
-                    class="img-fluid"
-                    src="https://i.imgur.com/goaqtUK.jpg"
-                    alt="..."
-                  />
+                  <img class="img-fluid" src={chitchat} alt="..." />
                 </a>
                 <div class="portfolio-caption">
                   <div class="portfolio-caption-heading">Chit-Chat</div>
