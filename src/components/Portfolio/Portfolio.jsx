@@ -48,6 +48,7 @@ export default function Portfolio() {
                   <div className="py-3">
                     <a
                       className="btn btn-success"
+                      target="_blank"
                       href="https://glistening-lokum-15880f.netlify.app/"
                     >
                       Live-Demo
@@ -55,6 +56,7 @@ export default function Portfolio() {
                     &nbsp;
                     <a
                       className="btn btn-success"
+                      target="_blank"
                       href="https://github.com/Bereket-U/github-profile-finder"
                     >
                       Code-GitHub
@@ -94,6 +96,7 @@ export default function Portfolio() {
                   <div className="py-3">
                     <a
                       className="btn btn-success"
+                      target="_blank"
                       href="https://bereket-u.github.io/hangman-game/"
                     >
                       Live-Demo
@@ -101,6 +104,7 @@ export default function Portfolio() {
                     &nbsp;
                     <a
                       className="btn btn-success"
+                      target="_blank"
                       href="https://github.com/Bereket-U/hangman-game"
                     >
                       Code-GitHub
@@ -141,6 +145,7 @@ export default function Portfolio() {
                   <div className="py-3">
                     <a
                       className="btn btn-success"
+                      target="_blank"
                       href="https://my-purrbnb.herokuapp.com/"
                     >
                       Live-Demo
@@ -148,6 +153,7 @@ export default function Portfolio() {
                     &nbsp;
                     <a
                       className="btn btn-success"
+                      target="_blank"
                       href="https://github.com/Bereket-U/purrbnb"
                     >
                       Code-GitHub
@@ -188,6 +194,7 @@ export default function Portfolio() {
                   <div className="py-3">
                     <a
                       className="btn btn-success"
+                      target="_blank"
                       href="https://lets-review.herokuapp.com/"
                     >
                       Live-Demo
@@ -195,6 +202,7 @@ export default function Portfolio() {
                     &nbsp;
                     <a
                       className="btn btn-success"
+                      target="_blank"
                       href="https://github.com/Bereket-U/lets-review"
                     >
                       Code-GitHub
@@ -231,6 +239,7 @@ export default function Portfolio() {
                   <div className="py-3">
                     <a
                       className="btn btn-success"
+                      target="_blank"
                       href="https://bereket-u.github.io/food-recipe-app-api/"
                     >
                       Live-Demo
@@ -238,6 +247,7 @@ export default function Portfolio() {
                     &nbsp;
                     <a
                       className="btn btn-success"
+                      target="_blank"
                       href="https://github.com/Bereket-U/food-recipe-app-api"
                     >
                       Code-GitHub
@@ -278,6 +288,7 @@ export default function Portfolio() {
                   <div className="py-3">
                     <a
                       className="btn btn-success"
+                      target="_blank"
                       href="https://chitchat-sei.herokuapp.com/"
                     >
                       Live-Demo
@@ -285,6 +296,7 @@ export default function Portfolio() {
                     &nbsp;
                     <a
                       className="btn btn-success"
+                      target="_blank"
                       href="https://github.com/Bereket-U/ChitChat"
                     >
                       Code-GitHub

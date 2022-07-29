@@ -10,6 +10,7 @@ export default function Footer() {
               <a
                 href="https://www.linkedin.com/in/bereket-urgessa-699530209/"
                 className="nav-link px-2 text-muted"
+                target="_blank"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -27,6 +28,7 @@ export default function Footer() {
               <a
                 href="https://github.com/Bereket-U"
                 className="nav-link px-2 text-muted"
+                target="_blank"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
