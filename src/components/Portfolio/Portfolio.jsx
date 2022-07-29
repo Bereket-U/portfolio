@@ -34,19 +34,6 @@ export default function Portfolio() {
                           <strong>Tools: </strong> HTML, CSS, JavaScript
                         </p>
                       </div>
-                      <a
-                        className="btn btn-success"
-                        href="https://glistening-lokum-15880f.netlify.app/"
-                      >
-                        Live-Demo
-                      </a>
-                      &nbsp;
-                      <a
-                        className="btn btn-success"
-                        href="https://github.com/Bereket-U/github-profile-finder"
-                      >
-                        Code-GitHub
-                      </a>
                     </div>
                   </div>
                   <img class="img-fluid" src={github} alt="..." />
@@ -57,6 +44,21 @@ export default function Portfolio() {
                   </div>
                   <div class="portfolio-caption-subheading text-muted">
                     Using the GitHub Rest API
+                  </div>
+                  <div className="py-3">
+                    <a
+                      className="btn btn-success"
+                      href="https://glistening-lokum-15880f.netlify.app/"
+                    >
+                      Live-Demo
+                    </a>
+                    &nbsp;
+                    <a
+                      className="btn btn-success"
+                      href="https://github.com/Bereket-U/github-profile-finder"
+                    >
+                      Code-GitHub
+                    </a>
                   </div>
                 </div>
               </div>
@@ -80,19 +82,6 @@ export default function Portfolio() {
                           <strong>Tools: </strong> HTML, CSS, JavaScript
                         </p>
                       </div>
-                      <a
-                        className="btn btn-success"
-                        href="https://bereket-u.github.io/hangman-game/"
-                      >
-                        Live-Demo
-                      </a>
-                      &nbsp;
-                      <a
-                        className="btn btn-success"
-                        href="https://github.com/Bereket-U/hangman-game"
-                      >
-                        Code-GitHub
-                      </a>
                     </div>
                   </div>
                   <img class="img-fluid" src={hangman} alt="..." />
@@ -101,6 +90,21 @@ export default function Portfolio() {
                   <div class="portfolio-caption-heading">Hangman Game</div>
                   <div class="portfolio-caption-subheading text-muted">
                     Browser-based Game - javascript
+                  </div>
+                  <div className="py-3">
+                    <a
+                      className="btn btn-success"
+                      href="https://bereket-u.github.io/hangman-game/"
+                    >
+                      Live-Demo
+                    </a>
+                    &nbsp;
+                    <a
+                      className="btn btn-success"
+                      href="https://github.com/Bereket-U/hangman-game"
+                    >
+                      Code-GitHub
+                    </a>
                   </div>
                 </div>
               </div>
@@ -125,19 +129,6 @@ export default function Portfolio() {
                           Mongodb Atlas
                         </p>
                       </div>
-                      <a
-                        className="btn btn-success"
-                        href="https://my-purrbnb.herokuapp.com/"
-                      >
-                        Live-Demo
-                      </a>
-                      &nbsp;
-                      <a
-                        className="btn btn-success"
-                        href="https://github.com/Bereket-U/purrbnb"
-                      >
-                        Code-GitHub
-                      </a>
                     </div>
                   </div>
                   <img class="img-fluid" src={purbnb} alt="..." />
@@ -146,6 +137,21 @@ export default function Portfolio() {
                   <div class="portfolio-caption-heading">PurrBnB</div>
                   <div class="portfolio-caption-subheading text-muted">
                     Full-Stack Web App - React
+                  </div>
+                  <div className="py-3">
+                    <a
+                      className="btn btn-success"
+                      href="https://my-purrbnb.herokuapp.com/"
+                    >
+                      Live-Demo
+                    </a>
+                    &nbsp;
+                    <a
+                      className="btn btn-success"
+                      href="https://github.com/Bereket-U/purrbnb"
+                    >
+                      Code-GitHub
+                    </a>
                   </div>
                 </div>
               </div>
@@ -169,19 +175,6 @@ export default function Portfolio() {
                           JavaScript, EJS Node.js, Express.Js MongoDB, Mongoose
                         </p>
                       </div>
-                      <a
-                        className="btn btn-success"
-                        href="https://lets-review.herokuapp.com/"
-                      >
-                        Live-Demo
-                      </a>
-                      &nbsp;
-                      <a
-                        className="btn btn-success"
-                        href="https://github.com/Bereket-U/lets-review"
-                      >
-                        Code-GitHub
-                      </a>
                     </div>
                   </div>
                   <img class="img-fluid" src={lets} alt="..." />
@@ -190,6 +183,22 @@ export default function Portfolio() {
                   <div class="portfolio-caption-heading">Lets Review</div>
                   <div class="portfolio-caption-subheading text-muted">
                     Full-Stack Web App - Node.js/Express
+                  </div>
+
+                  <div className="py-3">
+                    <a
+                      className="btn btn-success"
+                      href="https://lets-review.herokuapp.com/"
+                    >
+                      Live-Demo
+                    </a>
+                    &nbsp;
+                    <a
+                      className="btn btn-success"
+                      href="https://github.com/Bereket-U/lets-review"
+                    >
+                      Code-GitHub
+                    </a>
                   </div>
                 </div>
               </div>
@@ -210,19 +219,6 @@ export default function Portfolio() {
                           Material-UI
                         </p>
                       </div>
-                      <a
-                        className="btn btn-success"
-                        href="https://bereket-u.github.io/food-recipe-app-api/"
-                      >
-                        Live-Demo
-                      </a>
-                      &nbsp;
-                      <a
-                        className="btn btn-success"
-                        href="https://github.com/Bereket-U/food-recipe-app-api"
-                      >
-                        Code-GitHub
-                      </a>
                     </div>
                   </div>
                   <img class="img-fluid" src={recipe} alt="..." />
@@ -231,6 +227,21 @@ export default function Portfolio() {
                   <div class="portfolio-caption-heading">Recipe Finder</div>
                   <div class="portfolio-caption-subheading text-muted">
                     Using a third party API
+                  </div>
+                  <div className="py-3">
+                    <a
+                      className="btn btn-success"
+                      href="https://bereket-u.github.io/food-recipe-app-api/"
+                    >
+                      Live-Demo
+                    </a>
+                    &nbsp;
+                    <a
+                      className="btn btn-success"
+                      href="https://github.com/Bereket-U/food-recipe-app-api"
+                    >
+                      Code-GitHub
+                    </a>
                   </div>
                 </div>
               </div>
@@ -254,19 +265,6 @@ export default function Portfolio() {
                           Bootstrap, PSQL, AWS S3 Buckets.
                         </p>
                       </div>
-                      <a
-                        className="btn btn-success"
-                        href="https://chitchat-sei.herokuapp.com/"
-                      >
-                        Live-Demo
-                      </a>
-                      &nbsp;
-                      <a
-                        className="btn btn-success"
-                        href="https://github.com/Bereket-U/ChitChat"
-                      >
-                        Code-GitHub
-                      </a>
                     </div>
                   </div>
                   <img class="img-fluid" src={chitchat} alt="..." />
@@ -275,6 +273,22 @@ export default function Portfolio() {
                   <div class="portfolio-caption-heading">Chit-Chat</div>
                   <div class="portfolio-caption-subheading text-muted">
                     Full-Stack Web App - Django
+                  </div>
+
+                  <div className="py-3">
+                    <a
+                      className="btn btn-success"
+                      href="https://chitchat-sei.herokuapp.com/"
+                    >
+                      Live-Demo
+                    </a>
+                    &nbsp;
+                    <a
+                      className="btn btn-success"
+                      href="https://github.com/Bereket-U/ChitChat"
+                    >
+                      Code-GitHub
+                    </a>
                   </div>
                 </div>
               </div>
